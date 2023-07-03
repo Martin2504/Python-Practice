@@ -1,8 +1,6 @@
-# Take a number and square it. 
 
-def square(x):
+def square(x):          # Take a number and square it. 
     return x * x
 
 
-for i in range(10):
-    print(f"The square of {i} is {square(i)}")
+
