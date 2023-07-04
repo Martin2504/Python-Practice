@@ -5,7 +5,7 @@ def announce(f):
         print("Done with the function")
     return wrapper
 
-@announce
+@announce       # Wrapping the hello function inside of the announce decorator.
 def hello():
     print("Hello, world!")
 
